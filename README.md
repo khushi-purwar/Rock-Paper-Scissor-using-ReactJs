@@ -1,4 +1,4 @@
-# Rock Paper Scissor - A React Application
+# Rock Paper Scissor - A React Application http://www.emojimeanings.org/wp-content/uploads/2016/03/salon.png
 
 ## Screenshots
 
