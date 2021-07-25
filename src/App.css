@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #cfdfff;
+}
+
+.App {
+  text-align: center;
+}
+
+.heading{
+  margin: 20px 0;
+  color: rgb(0, 141, 141);
+}
+
+.start{
+  cursor: pointer;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.game { 
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  letter-spacing: normal;
+  font-family: 'STIX Two Math', serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.player{
+  color: blue;
+  font-size: 45px;
+}
+
+.game .player span{
+  display: inline-block;
+  color: black;
+  font-size: 30px;
+  
+}
+.game .player img{
+  display: block;
+  margin: 0 20px;
+}
+
+.game img{
+  max-width: 170px;
+}
+
+.computer{
+ color: rgb(142, 175, 22);
+ font-size: 45px;
+}
+
+.name{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.results{
+  color: rgb(241, 56, 87);
+}
+
+.results img{ 
+  display: block;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  margin: 15px auto;
+}
+
+input {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-size: 20px;
+  width: 27%;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 10px;
+  outline: none;
+}
+
+
+@media screen and (max-width:760px){
+  input{
+    width: 90%;
+  }
+}
